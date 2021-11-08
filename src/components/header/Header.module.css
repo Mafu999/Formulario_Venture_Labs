@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+html, body{
+    height: 100%;
+}
+
+.parent{
+    display: flex;
+}
+.cabecalho{
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    background-color: #0e0657;
+}
+.menu{
+    margin:20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.item{
+    color: white;
+    opacity: 0.4;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 250px;
+    text-decoration: none;
+}
