@@ -8,7 +8,7 @@ const Header = () => {
     <div className={style.parent}>
         <header className={style.cabecalho}>
             <nav className={style.menu}>
-            <Link className={style.item}>+ Cadastrar</Link>
+            <Link className={style.item} to='/cadastro1'>+ Cadastrar</Link>
             <Link className={style.item}>Clientes</Link>
             </nav>
         </header>
